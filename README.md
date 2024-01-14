@@ -38,5 +38,6 @@ Within the /server directory run `node index.js`
 Within the /client/myapp directory run `npm start`
 
 
-(This project was made for fun and does not represent ShareTea in any way)
+  
+(This project was made for fun and does not represent the ShareTea company in any way)
 
