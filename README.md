@@ -2,10 +2,15 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=12491201&assignment_repo_type=AssignmentRepo)
 
 
-# How to run the web server
+# How to run the application like normal
+
+Go to `https://sharetea-frontend.onrender.com/`
+
+# How to run the web server if on local
 
 ## 1. Start backend server 
 Within the /server directory run `node index.js`
 
 ## 2. Start client server
 Within the /client/myapp directory run `npm start`
+
