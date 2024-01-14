@@ -8,6 +8,7 @@ Go to `https://sharetea-frontend.onrender.com/`
 
 ## Customer View
 Click the Sign In option on the top right using OAuth and enter account details.  
+  
 **Features**  
 Translate button on the bottom of the home page with other functional icons  
 Order screen to allow for the completion of an order.  
