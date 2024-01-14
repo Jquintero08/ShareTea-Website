@@ -17,6 +17,14 @@ Order screen to allow for the completion of an order.
 Click the Sign In option on the top right using OAuth and enter:  
 Username: `jacobimposter331@gmail.com`  
 Password: `[Enter Password]`
+  
+**Features**  
+Translate button on the bottom of the home page with other functional icons below that  
+Order screen to allow for the completion of an order.  
+View active MenuBoard which is meant for display at establishments. (Updates live with database changes)  
+Trends tab to allow for visualization of recent sales.  
+Management tab to allow for addition/subtraction of drinks to the database as well as updates to stock/pricing.  
+
 
 
 
