@@ -10,7 +10,7 @@ Go to `https://sharetea-frontend.onrender.com/`
 Click the Sign In option on the top right using OAuth and enter account details.  
   
 **Features**  
-- Translate button on the bottom of the home page with other functional icons  
+ - Translate button on the bottom of the home page with other functional icons.  
  - Order screen to allow for the completion of an order.  
 
 ## Manager View
@@ -19,7 +19,7 @@ Username: `jacobimposter331@gmail.com`
 Password: `[Enter Password]`
   
 **Features**  
- - Translate button on the bottom of the home page with other functional icons below that  
+ - Translate button on the bottom of the home page with other functional icons below that.  
  - Order screen to allow for the completion of an order.  
  - View active MenuBoard which is meant for display at establishments. (Updates live with database changes)  
  - Trends tab to allow for visualization of recent sales.  
@@ -37,3 +37,6 @@ Within the /server directory run `node index.js`
 ## 2. Start client server
 Within the /client/myapp directory run `npm start`
 
+  
+  
+(This project was made for fun and does not represent the ShareTea company in any way)
