@@ -37,7 +37,7 @@ Within the /server directory run `node index.js`
 ## 2. Start client server
 Within the /client/myapp directory run `npm start`
 
-
+  
   
 (This project was made for fun and does not represent the ShareTea company in any way)
 
