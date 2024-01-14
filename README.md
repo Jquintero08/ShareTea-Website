@@ -10,8 +10,8 @@ Go to `https://sharetea-frontend.onrender.com/`
 Click the Sign In option on the top right using OAuth and enter account details.
 
 ## 2. Manager View
-Click the Sign In option on the top right using OAuth and enter:
-Username: `jacobimposter331@gmail.com`
+Click the Sign In option on the top right using OAuth and enter:  
+Username: `jacobimposter331@gmail.com`  
 Password: `[Enter Password]`
 
 # How to run the web server if on local
