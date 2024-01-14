@@ -1,0 +1,377 @@
+body.active-modal {
+    overflow-y: hidden;
+    
+}
+
+.btn-modal {
+    padding: 10px 20px;
+    display: block;
+    margin: 100px auto 0;
+    font-size: 18px;
+}
+
+.drink-modal-overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background: var(--overlayBGColor);
+    opacity: var(--overlayOpacity);
+    z-index: 109;
+}
+
+.signinmodal-content {
+   
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #f1f1f1;
+    padding: 50px 50px 50px 50px;
+    border-radius: 20px;
+    
+    max-width: 600px;
+    min-width: 300px;
+    z-index: 110;
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+    
+}
+
+.drink-modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: white;
+    padding: 14px 14px 0px 25px;
+    border-radius: 3px;
+    min-width: 80vw;
+    min-height: 80vh;
+    z-index: 110;
+    display:flex;
+    flex-flow: column;
+}
+
+.drink-modal-content h2{
+    margin:20px 10px 10px 10px;
+}
+
+.toppings-section{
+    max-height: 50vh;
+    flex: 1 1 auto;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+
+ h3.topping-header{
+    margin: 10px 0px 5px 20px;
+}
+
+.drink-modal-content h2, h3{
+    padding-left: 2.5%;
+}
+
+
+.drink-modal-content h3{
+    padding-bottom: 2%;
+}
+
+
+
+.level-selection-section-sugar{
+    max-width: 100%;
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    gap:10px;
+    margin-left: 10px;
+    flex:1;
+    
+}
+
+.level-selection-section-ice{
+    margin-left: 10px;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:10px;
+    flex:1;
+}
+
+.level-selection-section-sugar button > div + .ice-level-title {
+    width: inherit;
+  }
+
+
+
+.sugar-section, .ice-section{
+    padding-left: 30px;
+    display: flex;
+    margin-bottom: 5px;
+
+    border-radius: 17px;
+}
+
+.temporary-animation{
+    animation: pulse 2s forwards; 
+}
+
+@keyframes pulse {
+    0% {
+      border-color: #3498db; /* Initial border color */
+      transform: scale(1);
+    }
+    50% {
+      border-color: #1abc9c; /* Midway border color */
+      transform: scale(1.05);
+    }
+    100% {
+      border-color: #3498db; /* Back to initial border color */
+      transform: scale(1);
+    }
+  }
+
+.sugar-section div.title, .ice-section div.title{
+
+    text-align: center;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+
+}
+
+
+.level-selection-section-ice button, .level-selection-section-ice button > div{
+    
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.level-selection-section-ice button{
+    border-radius: 17px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: var(--primaryCardButtonColor);
+    font-family: "Plus Jakarta Sans", sans-serif;
+    border:transparent solid 3px;
+    transition: background-color 0.3s ease 0s, color 0.3s ease 0s, border 0.1s ease 0s;
+}
+
+.level-selection-section-ice button:hover{
+    border: 3px solid black;
+}
+
+.level-selection-section-ice button.active{
+    background-color: var(--buttonPrimaryHoverColor);
+    color: white;
+}
+
+.ice-level-image{
+    width: 80px;
+    height: auto;
+    margin: 20px 0px 20px 10px;
+}
+
+.drink-modal-row-content {
+    display:flex;
+    flex-flow: row;
+    flex: 1 1 auto;
+    max-height: 73vh;
+}
+
+.level-selection-section-sugar button, .level-selection-section-sugar div{
+    aspect-ratio: 1;
+
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.level-selection-section-sugar button{
+    border-radius: 17px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: var(--primaryCardButtonColor);
+    border: none;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    border:transparent solid 3px;
+    transition: background-color 0.3s ease 0s, color 0.3s ease 0s, border 0.1s ease 0s;
+}
+
+.level-selection-section-sugar button:hover{
+    border: black solid 3px;
+}
+
+.level-selection-section-sugar button.active{
+    background-color: var(--buttonPrimaryHoverColor);
+    color: white;
+}
+
+.drink-modal-left-panel{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    
+    
+}
+
+.drink-modal-right-panel{
+
+    flex: 1; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.drink-order-panel{
+    background-color: var(--detailsPanelColor);
+    height: 100%;
+    width: 90%;
+    border-radius: 17px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.drink-order-panel h4{
+    margin:10px 10px 10px 10px;
+}
+
+.drink-order-panel div.middle-section{
+    width: 100%;
+    flex:1;
+}
+
+.drink-order-panel span.divider{
+    width: 90%;
+    height: 3px;
+    border-radius: 25px;
+    background-color: var(--detailsPanelDividerColor);
+}
+
+
+.drink-order-panel div.bottom-section{
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+.drink-order-panel div.bottom-section p{
+    font-size: 20px;
+    margin:5px;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+
+
+
+.drink-item-card {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    padding: 10px;
+    background-color: var(--detailsPanelDrinkCardColor);
+    margin: auto;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.drink-item-card div.drink,.drink-item-card div.drink-attribute{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.drink-item-card div.drink p{
+    font-size: 15px;
+    margin:0;
+    text-align: left;
+}
+
+.drink-item-card div.drink p.name{
+    flex:1;
+}
+
+.drink-item-card div.drink p.price{
+    color: #787878;
+    width: 25%;
+}
+
+.drink-item-card div.drink-attribute p{
+    font-size: 12px;
+    margin:0;
+    color: #787878;
+    text-align: left;
+}
+
+.drink-item-card div.drink-attribute p.name{
+    flex:1;
+    padding-left: 10px;
+}
+
+.drink-item-card div.drink-attribute p.price{
+    width: 25%;
+    padding-right: 10px;
+}
+
+.toppings-container.customer{
+    overflow: visible;
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    column-gap: 20px;
+    row-gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.toppings-container.employee{
+    overflow: visible;
+    display:grid;
+    grid-template-columns: repeat(7,1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.close-modal{
+    border-radius: 17px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: var(--primaryCardButtonColor);
+    border: none;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    border:transparent solid 3px;
+    transition: background-color 0.3s ease 0s, color 0.3s ease 0s, border 0.1s ease 0s;
+}
+
+.close-modal:hover{
+    border: 2px solid black;
+}
