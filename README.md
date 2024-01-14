@@ -6,13 +6,19 @@
 
 Go to `https://sharetea-frontend.onrender.com/`
 
-## 1. Customer View
+## Customer View
 Click the Sign In option on the top right using OAuth and enter account details.
+**Features**
+Translate button on the bottom of the home page with other functional icons  
+Order screen to allow for the completion of an order.  
 
-## 2. Manager View
+## Manager View
 Click the Sign In option on the top right using OAuth and enter:  
 Username: `jacobimposter331@gmail.com`  
 Password: `[Enter Password]`
+
+
+
 
 # How to run the web server if on local
 
